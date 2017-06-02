@@ -47,6 +47,10 @@ example, the command to power off a VM is actually "vm.off", since it exists in
 the "vm" module, but since it is a common operation it has been aliased to
 "off".
 
+You can also use the environment variables "RBVMOMI_USER" and "RBVMOMI_PASSWORD"
+to set the credentials.
+
+
 == Paths
 
 All vm operations need a full path, or relative path, rather than just the

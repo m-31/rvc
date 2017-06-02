@@ -1,4 +1,5 @@
 *.swp
+/.idea/
 pkg/
 *.gemspec
 coverage
